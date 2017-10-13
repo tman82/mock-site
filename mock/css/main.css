@@ -1,0 +1,448 @@
+/* line 1, C:/Projects/tech-career/elite-deals/mock/scss/layout/_header.scss */
+#thin {
+  background-color: #3a3a3a;
+  height: 6px;
+  z-index: 1;
+}
+
+/* line 6, C:/Projects/tech-career/elite-deals/mock/scss/layout/_header.scss */
+#thin .tee {
+  color: #3a3a3a;
+  margin-top: -9px;
+}
+
+/* line 12, C:/Projects/tech-career/elite-deals/mock/scss/layout/_header.scss */
+#nav-div ul li {
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+  margin: 0px -5px -10px 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-top: solid 6px;
+  background-color: #fff;
+  margin-top: -6px;
+}
+
+/* line 26, C:/Projects/tech-career/elite-deals/mock/scss/layout/_header.scss */
+#nav-div ul li:hover {
+  display: inline-block;
+  z-index: 3;
+  margin: 0px -5px -10px 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-top: solid #f15a23 6px;
+  border-bottom: solid #f15a23 0.5px;
+  background-color: #f8f8f8;
+  margin-top: -6px;
+}
+
+/* line 40, C:/Projects/tech-career/elite-deals/mock/scss/layout/_header.scss */
+#logo-div {
+  position: relative;
+}
+
+/* line 42, C:/Projects/tech-career/elite-deals/mock/scss/layout/_header.scss */
+#logo-div #logo-div2 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* line 47, C:/Projects/tech-career/elite-deals/mock/scss/layout/_header.scss */
+#logo-div #logo-div2 #logo {
+  position: relative;
+  margin-top: -20px;
+}
+
+/* line 55, C:/Projects/tech-career/elite-deals/mock/scss/layout/_header.scss */
+.home-arrow {
+  display: inline-block;
+  position: relative;
+  z-index: 3 !important;
+  margin: 0px -5px -10px 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-top: solid #f15a23 6px !important;
+  border-bottom: solid #f15a23 0.5px;
+  background-color: #f8f8f8 !important;
+  margin-top: -6px;
+}
+
+/* line 70, C:/Projects/tech-career/elite-deals/mock/scss/layout/_header.scss */
+.home-arrow:after {
+  content: '';
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 3%;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: solid 5px #e15915;
+  border-left: solid 5px transparent;
+  border-right: solid 5px transparent;
+}
+
+/*
+  Responsive Breakpoints
+*/
+/* line 3, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body #we-are-div {
+  text-align: center;
+  margin-top: -35px;
+  padding-left: 115px !important;
+  padding-right: 115px !important;
+}
+
+/* line 8, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body #we-are-div .index {
+  position: relative;
+  margin-top: -1px;
+  z-index: 1 !important;
+}
+
+/* line 13, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body #we-are-div #header1 {
+  font-size: 24px;
+  color: #474747;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* line 24, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body #we-are-div #header2 {
+  font-size: 25px;
+  color: #474747;
+  font-weight: 300;
+  margin-top: 1px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* line 35, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body .big-photo-div {
+  text-align: center;
+  position: relative;
+}
+
+/* line 39, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body .big-photo-div .rule-div {
+  display: block;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 46, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body .big-photo-div .rule-div .rule {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 51, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body .big-photo-div .rule-div hr {
+  width: 100%;
+  height: 4px !important;
+  background-color: #dfdfdf;
+  margin-top: -1px;
+  margin-bottom: 1px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 63, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body #features-div {
+  /* Try to add again for testing centered features divs
+  display: inline-block;
+  */
+}
+
+/* line 68, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body #features-div .features {
+  background-color: #eee;
+  width: 20.6% !important;
+  max-width: 300px !important;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  border-left: solid #fff 1px;
+  border-bottom: solid #fff 1px;
+  /*
+    margin: 0px 1px 1px 1px;
+    */
+}
+
+/* line 79, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body #features-div .features .circle {
+  height: 45px;
+  width: 45px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  float: left;
+  margin-right: 0px;
+  line-height: 46px;
+  border-radius: 50px;
+  position: relative;
+  background-color: #3a3a3a;
+}
+
+/* line 94, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body #features-div .features .p1 {
+  font-weight: bold !important;
+  color: #3a3a3a;
+}
+
+/* line 99, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body #features-div .features .p2 {
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+/* line 104, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+body #features-div .features .active-button {
+  position: relative;
+  z-index: 3 !important;
+}
+
+/*
+  Responsive Breakpoints
+*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 121, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+  .features {
+    background-color: #eee;
+    width: 25%;
+    max-width: 300px !important;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border-left: solid #fff 1px;
+    border-bottom: solid #fff 1px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 133, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+  #features-div {
+    padding-right: 0px;
+  }
+  /* line 135, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+  #features-div .features {
+    position: relative;
+    background-color: #eee;
+    width: 20% !important;
+    max-width: 300px !important;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid #fff 1px;
+    border-bottom: solid #fff 1px;
+  }
+  /* line 147, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+  #features-div .active-button {
+    margin-right: 30px !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1999px) {
+  /* line 155, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+  #features-div .features {
+    background-color: #eee;
+    width: 23% !important;
+    max-width: 334px;
+    margin-left: 0px;
+    /*
+        max-width: 300px !important;
+        */
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border-left: solid #fff 1px;
+    border-bottom: solid #fff 1px;
+  }
+  /* line 168, C:/Projects/tech-career/elite-deals/mock/scss/modules/_blocks.scss */
+  #features-div .active-button {
+    margin-top: -2.9px;
+    margin-left: -15px;
+    margin-right: 0.6px !important;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+/*  Projects div  */
+/* line 2, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#projects-div {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* line 6, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#projects-div .container-2 {
+  margin-bottom: -17px;
+}
+
+/* line 9, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#projects-div .container-2 h6 {
+  color: #474747;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* line 15, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#projects-div .container-2 #arrow-div {
+  margin-bottom: 0px !important;
+}
+
+/* line 17, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#projects-div .container-2 #arrow-div ul li {
+  display: inline-block;
+}
+
+/* line 21, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#projects-div .container-2 #arrow-div .block {
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #ddd;
+}
+
+/* line 30, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#projects-div #block-rule {
+  margin-bottom: 20px;
+}
+
+/* Latest projects div   */
+/* line 36, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#latest-projects-div {
+  padding-left: 90px;
+  padding-right: 100px;
+}
+
+/* line 40, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#latest-projects-div .latest-blocks {
+  padding-left: -10px;
+  padding-right: -20px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+/* line 45, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#latest-projects-div .latest-blocks img {
+  margin-bottom: 15px;
+}
+
+/* line 48, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#latest-projects-div .latest-blocks h5 {
+  font-weight: 200 !important;
+  color: #3a3a3a;
+  margin-bottom: 0px;
+}
+
+/* line 53, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#latest-projects-div .latest-blocks .categories {
+  color: #aeaeae;
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* line 58, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#latest-projects-div .latest-blocks hr {
+  width: 100% !important;
+  margin-right: -10px;
+}
+
+/* line 65, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+.go-up {
+  margin-top: -110px;
+}
+
+/* line 69, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#stuff-div {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: -80px;
+  margin-bottom: 100px;
+}
+
+/* line 74, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#stuff-div .stuff-blocks {
+  margin-right: 0px;
+}
+
+/* line 76, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#stuff-div .stuff-blocks .stuff-img {
+  position: relative;
+  margin-bottom: 15px !important;
+  z-index: 1;
+}
+
+/* line 82, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#stuff-div .stuff-blocks .copy-div {
+  height: 35px;
+  width: 35px;
+  background-color: #ddd;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  z-index: 1 !important;
+}
+
+/* line 91, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+#stuff-div .stuff-blocks .bring-div {
+  position: relative;
+  margin-right: -30px !important;
+  z-index: 3 !important;
+}
+
+/* line 99, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+.footer {
+  text-align: center;
+  margin-left: -400px;
+  margin-right: -400px;
+  padding-top: 65px;
+  height: 150px;
+  background-color: #3a3a3a;
+}
+
+/* line 106, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+.footer img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 112, C:/Projects/tech-career/elite-deals/mock/scss/layout/_mid.scss */
+.mini-footer {
+  padding-top: 20px;
+  text-align: center;
+  margin-left: -400px;
+  margin-right: -400px;
+  height: 60px;
+  background-color: #303030;
+  color: #ced8df;
+}
+
+/*
+  Responsive Breakpoints
+*/
+/*
+  Responsive Breakpoints
+*/
+
+/*# sourceMappingURL=../css/main.map */

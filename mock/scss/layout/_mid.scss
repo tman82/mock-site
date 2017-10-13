@@ -1,0 +1,138 @@
+/*  Projects div  */
+#projects-div {
+
+  padding-left: 100px;
+  padding-right: 100px;
+  .container-2 {
+    margin-bottom: -17px;
+
+    h6 {
+      color: #474747;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    #arrow-div {
+      margin-bottom: 0px !important;
+      ul li {
+        display: inline-block;
+      }
+
+      .block {
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+        text-align: center;
+        background-color: #ddd;
+      }
+    }
+  }
+  #block-rule {
+    margin-bottom: 20px;
+  }
+}
+
+/* Latest projects div   */
+#latest-projects-div {
+  padding-left: 90px;
+  padding-right: 100px;
+
+  .latest-blocks {
+    padding-left: -10px;
+    padding-right: -20px;
+    margin-bottom: 100px;
+    text-align: center;
+    img {
+      margin-bottom: 15px;
+    }
+    h5 {
+      font-weight: 200 !important;
+      color: #3a3a3a;
+      margin-bottom: 0px;
+    }
+    .categories {
+      color: #aeaeae;
+      font-size: 12px;
+      font-style: italic;
+    }
+    hr {
+      width: 100% !important;
+      margin-right: -10px;
+    }
+  }
+}
+
+.go-up {
+  margin-top: -110px;
+}
+
+#stuff-div {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: -80px;
+  margin-bottom: 100px;
+  .stuff-blocks {
+    margin-right: 0px;
+    .stuff-img {
+      position: relative;
+      margin-bottom: 15px !important;
+      z-index: 1;
+    }
+
+      .copy-div {
+        height: 35px;
+        width: 35px;
+        background-color: #ddd;
+        text-align: center;
+        line-height: 30px;
+        position: relative;
+        z-index: 1 !important;
+      }
+    .bring-div {
+      position: relative;
+      margin-right: -30px !important;
+      z-index: 3 !important;;
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+  margin-left: -400px;
+  margin-right: -400px;
+  padding-top: 65px;
+  height: 150px;
+  background-color: #3a3a3a;
+  img {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.mini-footer {
+  padding-top: 20px;
+  text-align: center;
+  margin-left: -400px;
+  margin-right: -400px;
+  height: 60px;
+  background-color: #303030;
+  color: #ced8df;
+}
+
+
+
+
+
+
+
+/*
+  Responsive Breakpoints
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1999px){
+
+}
